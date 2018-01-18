@@ -1,5 +1,8 @@
 import React from 'react'
 import './Card.css';
+import 'bulma/css/bulma.css'
+import "font-awesome/css/font-awesome.css";
+
 
 export default (props) =>{
 
@@ -10,7 +13,9 @@ export default (props) =>{
         <div><img src={`${props.url}`}/></div>
 
         <div className ='card-content-name'>
-            <span>{props.firstName}</span> <span>{props.lastName}</span>
+    
+            <div> <i className="fa fa-user-o" aria-hidden="true"></i> <span>{props.firstName}</span> <span>{props.lastName}</span></div>
+            
         </div>           
         
         <div className='card-content-title'>
@@ -21,9 +26,17 @@ export default (props) =>{
         
         <div className='card-content-skill'>
         
-            <div> Javascript </div>
+            <div> Javascript Java C# </div>
     
        </div>
+
+
+       <div className='card-content-description'>
+        
+              <div> Description </div>
+
+        </div>
+
 
     
     </div>)

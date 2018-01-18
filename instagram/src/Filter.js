@@ -38,9 +38,9 @@ export default (props) => {
                     Date Range
                  </div>
                 <div classNmae='filter-dateRange'>
-     
 
-                    
+
+
                 </div>
             </div>
 
@@ -50,10 +50,10 @@ export default (props) => {
                 <div className='filter-age-label'>
                     Age
                 </div>
-                <div classNmae='filter-age'>
-
-                    <SliderFilter />
-
+                <div className='filter-age'>
+        
+                        <SliderFilter />
+            
                 </div>
             </div>
 
@@ -71,7 +71,7 @@ export default (props) => {
 
 
             <div className='filter-availablity-section'>
-                <div className='filter-availablity-label'>Avaiablity</div>
+                <div className='filter-availablity-label'>Availablity</div>
 
                 <div className='filter-availablity'>
 

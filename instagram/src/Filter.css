@@ -52,7 +52,7 @@
     padding:4px;
     margin-right:5px;
     margin-bottom: 5px;
-    background: rgb(255, 136, 0);
+    background: rgb(102, 204, 255);
     color: white;
     border-radius: 3px;
     font-size: 11px;
@@ -90,6 +90,7 @@
     margin-bottom:20px;
     height:50px;
 
+
 }
 
 .filter-age-section > .filter-age-label{
@@ -99,9 +100,9 @@
 
 }
 
-.filter-age-section >.filter-age{
+.filter-age{
 
-    padding: 10px;   
+    padding:10px;
     margin-top: 20px;
 
 }

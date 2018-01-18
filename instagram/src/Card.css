@@ -27,7 +27,11 @@
     color: gray;
     font-size: 11px;
     display:flex;
+    flex-direction: column;
     flex:1;
+    padding: 10px;
+
+    
 }
 
 .card-content-title{
@@ -38,7 +42,7 @@
     font-size: 11px;
     display:flex;
     flex:1;
-
+    padding: 10px;
 }
 
 
@@ -50,5 +54,16 @@
     font-size: 11px;
     display:flex;
     flex:1;
+    padding: 10px;
+}
 
+.card-content-description{
+
+
+  
+    color: gray;
+    font-size: 11px;
+    display:flex;
+    flex:1;
+    padding: 10px;
 }

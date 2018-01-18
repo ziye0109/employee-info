@@ -1,3 +1,32 @@
+.nav{
+
+  float:left;
+
+}
+
+.nav a:link{
+
+  color: white;
+
+}
+
+.nav a:active{
+
+  color: white;
+
+}
+
+/* visited link */
+.nav a:visited {
+  color: white;
+}
+
+/* mouse over link */
+.nav a:hover {
+  color: white;
+}
+
+
 .search-section{
 
 
@@ -13,7 +42,7 @@
 
 .search-input{
 
-  float: left;
+  float: right;
   display: block;
   min-width: 100px;
   height: 25px;
@@ -24,3 +53,5 @@
   outline: none;
 
 }
+
+
