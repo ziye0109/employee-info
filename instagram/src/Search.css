@@ -1,0 +1,26 @@
+.search-section{
+
+
+    background: rgb(102, 204, 255);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+
+    
+
+}
+
+.search-input{
+
+  float: left;
+  display: block;
+  min-width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  border-width: 0;
+  padding: 10px;
+
+  outline: none;
+
+}

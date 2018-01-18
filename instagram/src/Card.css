@@ -1,0 +1,54 @@
+.card{
+
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.card:hover{
+
+
+
+}
+
+.card img{
+
+    height:90px;
+    margin-right: 20px;
+    border-radius: 50%;
+
+}
+
+.card-content-name{
+
+  
+    color: gray;
+    font-size: 11px;
+    display:flex;
+    flex:1;
+}
+
+.card-content-title{
+
+
+  
+    color: gray;
+    font-size: 11px;
+    display:flex;
+    flex:1;
+
+}
+
+
+.card-content-skill{
+
+
+  
+    color: gray;
+    font-size: 11px;
+    display:flex;
+    flex:1;
+
+}
