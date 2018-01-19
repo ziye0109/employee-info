@@ -10,6 +10,13 @@ export default (props) =>{
 
     return (<div className='card'>
     
+
+        <div>
+            <span class="card-checkbox">
+                <input type="checkbox" class="card-checkbox-input" value="on"/>
+             </span>
+        </div>
+        
         <div><img src={`${props.url}`}/></div>
 
         <div className ='card-content-name'>

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Filter from './Filter';
+import Event from './Event';
 import CardList from './CardList';
 import Search from './Search';
 import Loader from './Loader';
-import ContentLoader from 'react-content-loader'
 
 
 
@@ -126,6 +126,10 @@ class App extends Component {
           <Filter />
 
           {this.renderCards(this.state.cards)}
+
+
+          <Event isLoading = 'true' />
+
         </div>
 
 
