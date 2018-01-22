@@ -1,6 +1,5 @@
 import React from 'react'
 import './Card.css';
-import 'bulma/css/bulma.css'
 import "font-awesome/css/font-awesome.css";
 
 

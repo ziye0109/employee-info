@@ -38,9 +38,6 @@ export default (props) => {
                     Date Range
                  </div>
                 <div classNmae='filter-dateRange'>
-
-
-
                 </div>
             </div>
 
